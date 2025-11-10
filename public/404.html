@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Redirecting…</title>
+    <script>
+      (function () {
+        var segmentCount = 1
+        var l = window.location
+        var origin =
+          l.protocol +
+          '//' +
+          l.hostname +
+          (l.port ? ':' + l.port : '')
+        var repo = l.pathname
+          .split('/')
+          .slice(1, 1 + segmentCount)
+          .join('/')
+        var path =
+          l.pathname
+            .split('/')
+            .slice(1 + segmentCount)
+            .join('/') || ''
+        if (repo) {
+          origin += '/' + repo
+        }
+        var redirectURL =
+          origin +
+          '/?/' +
+          path.replace(/&/g, '~and~') +
+          (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') +
+          l.hash
+        window.location.replace(redirectURL)
+      })()
+    </script>
+  </head>
+  <body></body>
+</html>
+

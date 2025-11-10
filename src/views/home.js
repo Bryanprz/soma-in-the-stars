@@ -112,7 +112,7 @@ a:focus-visible, button:focus-visible {
             <div className="visual-panel">
               <img
                 alt="Soma in the Stars logo"
-                src="/Soma%20In%20the%20Stars%20-%20logo.jpeg"
+                src="/soma-in-the-stars-logo.jpg"
                 className="home-image1"
               />
               <p className="visual-caption" aria-hidden="true">
