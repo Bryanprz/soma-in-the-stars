@@ -358,7 +358,7 @@ const Footer = (props) => {
           <div className="footer-bottom-bar">
             <div className="footer-bottom-content">
               <div className="footer-copyright">
-                <p>&amp;copy; 2025 Soma in the Stars. All rights reserved.</p>
+                <p>© 2025 Soma in the Stars. All rights reserved.</p>
                 <p className="footer-crafted">
                   {' '}
                   Crafted with cosmic love by Jyotishi Carolina Ortiz
