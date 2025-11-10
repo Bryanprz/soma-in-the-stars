@@ -17,8 +17,9 @@
 }
  
 .home-image1 {
-  width: 579px;
-  height: 711px;
+  width: 100%;
+  height: auto;
+  display: block;
 }
  
 .home-card-image1 {
