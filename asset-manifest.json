@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/soma-in-the-stars/static/css/main.9efc0d2d.css",
-    "main.js": "/soma-in-the-stars/static/js/main.f5c13db5.js",
-    "index.html": "/soma-in-the-stars/index.html",
-    "main.9efc0d2d.css.map": "/soma-in-the-stars/static/css/main.9efc0d2d.css.map",
-    "main.f5c13db5.js.map": "/soma-in-the-stars/static/js/main.f5c13db5.js.map"
+    "main.css": "/static/css/main.9efc0d2d.css",
+    "main.js": "/static/js/main.73c161bf.js",
+    "index.html": "/index.html",
+    "main.9efc0d2d.css.map": "/static/css/main.9efc0d2d.css.map",
+    "main.73c161bf.js.map": "/static/js/main.73c161bf.js.map"
   },
   "entrypoints": [
     "static/css/main.9efc0d2d.css",
-    "static/js/main.f5c13db5.js"
+    "static/js/main.73c161bf.js"
   ]
 }

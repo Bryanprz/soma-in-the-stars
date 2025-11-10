@@ -3,37 +3,21 @@
   <head>
     <meta charset="utf-8" />
     <title>Redirecting…</title>
+    <meta http-equiv="refresh" content="0; url=/" />
     <script>
       (function () {
-        var segmentCount = 1
         var l = window.location
-        var origin =
-          l.protocol +
-          '//' +
-          l.hostname +
-          (l.port ? ':' + l.port : '')
-        var repo = l.pathname
-          .split('/')
-          .slice(1, 1 + segmentCount)
-          .join('/')
-        var path =
-          l.pathname
-            .split('/')
-            .slice(1 + segmentCount)
-            .join('/') || ''
-        if (repo) {
-          origin += '/' + repo
-        }
-        var redirectURL =
-          origin +
-          '/?/' +
-          path.replace(/&/g, '~and~') +
-          (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') +
-          l.hash
-        window.location.replace(redirectURL)
+        var redirectTarget = l.pathname + l.search + l.hash
+        window.sessionStorage.setItem('__gh_redirect__', redirectTarget)
       })()
     </script>
   </head>
-  <body></body>
+  <body>
+    <noscript>
+      <p>
+        JavaScript is required. <a href="/">Return to the home page</a>.
+      </p>
+    </noscript>
+  </body>
 </html>
 
