@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/soma-in-the-stars/static/css/main.9efc0d2d.css",
+    "main.js": "/soma-in-the-stars/static/js/main.e56f7908.js",
+    "index.html": "/soma-in-the-stars/index.html",
+    "main.9efc0d2d.css.map": "/soma-in-the-stars/static/css/main.9efc0d2d.css.map",
+    "main.e56f7908.js.map": "/soma-in-the-stars/static/js/main.e56f7908.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9efc0d2d.css",
+    "static/js/main.e56f7908.js"
+  ]
+}
