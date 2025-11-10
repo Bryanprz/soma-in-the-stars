@@ -2066,13 +2066,10 @@
  
 .carousel {
   gap: var(--spacing-lg);
-  display: flex;
-  overflow-x: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   margin-bottom: var(--spacing-2xl);
   padding-bottom: var(--spacing-md);
-  scrollbar-color: var(--color-border) var(--color-surface);
-  scrollbar-width: thin;
-  scroll-snap-type: x mandatory;
 }
  
 .matrix {
@@ -2096,7 +2093,7 @@
 }
  
 .insight-card {
-  flex: 0 0 min(320px, 40%);
+  width: 100%;
   color: var(--color-on-surface);
   border: 1px dashed var(--color-border);
   padding: 0;
@@ -2107,7 +2104,6 @@
   transition: transform var(--animation-duration-fast)
       var(--animation-curve-primary);
   border-radius: var(--border-radius-md);
-  scroll-snap-align: start;
 }
  
 
@@ -2680,20 +2676,6 @@
   line-height: var(--line-height-base);
 }
  
-.carousel::-webkit-scrollbar {
-  height: 8px;
-}
- 
-.carousel::-webkit-scrollbar-track {
-  background: var(--color-surface);
-  border-radius: var(--border-radius-sm);
-}
- 
-.carousel::-webkit-scrollbar-thumb {
-  background: var(--color-border);
-  border-radius: var(--border-radius-sm);
-}
- 
 .insight-card:hover {
   transform: translateY(-4px);
 }
@@ -2814,6 +2796,29 @@
 }
  
 @media(max-width: 991px) {
+  .carousel {
+    display: flex;
+    overflow-x: auto;
+    padding-bottom: var(--spacing-md);
+    scroll-snap-type: x mandatory;
+    scrollbar-color: var(--color-border) var(--color-surface);
+    scrollbar-width: thin;
+  }
+  .carousel::-webkit-scrollbar {
+    height: 8px;
+  }
+  .carousel::-webkit-scrollbar-track {
+    background: var(--color-surface);
+    border-radius: var(--border-radius-sm);
+  }
+  .carousel::-webkit-scrollbar-thumb {
+    background: var(--color-border);
+    border-radius: var(--border-radius-sm);
+  }
+  .insight-card {
+    flex: 0 0 min(280px, 80%);
+    scroll-snap-align: start;
+  }
   .thq-grid-4 {
     grid-template-columns: 1fr 1fr 1fr;
   }

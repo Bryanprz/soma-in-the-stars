@@ -49,8 +49,8 @@ a:focus-visible, button:focus-visible {
           <div className="hero-content">
             <h1 className="headline">
               {' '}
-              Soma in the Stars — Learn Vedic Astrology with an Artist&apos;s
-              Eye
+              Soma in the Stars — Learn Vedic Astrology to Navigate Life with
+              Clarity
               <span
                 dangerouslySetInnerHTML={{
                   __html: ' ',
@@ -59,11 +59,12 @@ a:focus-visible, button:focus-visible {
             </h1>
             <p className="lead">
               {' '}
-              Unlock your creative destiny through Jyotish: immersive learning,
-              clear guidance, and soulful community for artists and makers. Join
-              our free Skool to explore courses, live workshops, and peer-led
-              study — or book a private reading with Jyotishi Carolina Ortiz for
-              a bespoke, practice-informed consultation.
+              Unlock your soul’s path through Jyotish — explore your karma,
+              receive intuitive insight, and connect with a soulful community
+              for curious minds and modern seekers. <strong>Join our free Skool</strong> for
+              courses, live workshops, and peer-led study, or <strong>book a private
+              reading</strong> with Jyotishi Carolina Ortiz for a personalized
+              consultation.
               <span
                 dangerouslySetInnerHTML={{
                   __html: ' ',
