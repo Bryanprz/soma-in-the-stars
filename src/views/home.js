@@ -11,7 +11,7 @@ const Home = (props) => {
   return (
     <div className="home-container1">
       <Helmet>
-        <title>Gummy Immediate Antelope</title>
+        <title>Soma in the Stars | Vedic Jyotish Astrology</title>
         <meta property="og:title" content="Gummy Immediate Antelope" />
       </Helmet>
       <Navigation></Navigation>
