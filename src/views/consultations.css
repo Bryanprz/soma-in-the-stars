@@ -1,0 +1,165 @@
+.consultations-container {
+  width: 100%;
+  display: block;
+  min-height: 100vh;
+}
+
+.consultations-hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: var(--spacing-4xl) var(--spacing-xl);
+  padding-top: calc(var(--spacing-4xl) + 80px);
+  background: linear-gradient(
+    180deg,
+    color-mix(in srgb, var(--color-primary-20) 40%, var(--color-surface)) 0%,
+    var(--color-surface) 100%
+  );
+}
+
+.consultations-hero-inner {
+  max-width: 720px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--spacing-xl);
+}
+
+.consultations-hero-inner .section-title {
+  font-family: var(--font-family-heading);
+  font-size: clamp(1.75rem, 4vw, 3rem);
+  color: var(--color-on-surface);
+  line-height: var(--line-height-tight);
+}
+
+.consultations-hero-inner .section-subtitle {
+  font-family: var(--font-family-body);
+  font-size: var(--font-size-lg);
+  color: var(--color-on-surface-secondary);
+  line-height: var(--line-height-loose);
+  max-width: 600px;
+}
+
+.consultations-content {
+  display: flex;
+  justify-content: center;
+  padding: var(--spacing-4xl) var(--spacing-xl);
+}
+
+.consultations-card {
+  max-width: 640px;
+  width: 100%;
+  background: var(--color-surface-elevated);
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius-lg);
+  padding: var(--spacing-3xl);
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-2xl);
+}
+
+.consultations-card h3 {
+  font-family: var(--font-family-heading);
+  font-size: var(--font-size-xl);
+  color: var(--color-on-surface);
+  line-height: var(--line-height-base);
+}
+
+.consultations-card p {
+  font-family: var(--font-family-body);
+  font-size: var(--font-size-base);
+  color: var(--color-on-surface-secondary);
+  line-height: var(--line-height-loose);
+}
+
+.consultations-details {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-md);
+}
+
+.consultations-details .detail-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+  padding: var(--spacing-xs) var(--spacing-md);
+  background: color-mix(in srgb, var(--color-primary) 12%, transparent);
+  border: 1px solid color-mix(in srgb, var(--color-primary) 30%, transparent);
+  border-radius: var(--border-radius-full);
+  font-family: var(--font-family-body);
+  font-size: var(--font-size-sm);
+  color: var(--color-accent);
+  letter-spacing: var(--letter-spacing-wide);
+}
+
+.consultations-includes {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+}
+
+.consultations-includes h4 {
+  font-family: var(--font-family-body);
+  font-weight: var(--font-weight-medium);
+  font-size: var(--font-size-base);
+  color: var(--color-on-surface);
+  margin-bottom: var(--spacing-xs);
+}
+
+.consultations-includes ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+}
+
+.consultations-includes li {
+  font-family: var(--font-family-body);
+  font-size: var(--font-size-sm);
+  color: var(--color-on-surface-secondary);
+  line-height: var(--line-height-loose);
+  padding-left: var(--spacing-xl);
+  position: relative;
+}
+
+.consultations-includes li::before {
+  content: "\2727";
+  position: absolute;
+  left: 0;
+  color: var(--color-accent);
+}
+
+.consultations-cta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--spacing-sm);
+  padding-top: var(--spacing-lg);
+}
+
+.consultations-cta .btn {
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+}
+
+.consultations-cta .secure-note {
+  font-family: var(--font-family-body);
+  font-size: var(--font-size-xs);
+  color: var(--color-neutral);
+  letter-spacing: var(--letter-spacing-wide);
+}
+
+@media (max-width: 600px) {
+  .consultations-card {
+    padding: var(--spacing-2xl) var(--spacing-lg);
+  }
+
+  .consultations-hero {
+    padding-left: var(--spacing-lg);
+    padding-right: var(--spacing-lg);
+  }
+}

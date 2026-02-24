@@ -110,28 +110,21 @@ const Navigation = (props) => {
           <div id="navigationMenu" className="navigation-menu">
             <ul className="navigation-list">
               <li className="navigation-item">
-                <a href="#about">
-                  <div className="navigation-link">
-                    <span>About Jyotish</span>
-                  </div>
-                </a>
-              </li>
-              <li className="navigation-item">
-                <a href="#readings">
+                <a href="/consultations">
                   <div className="navigation-link">
                     <span>Astrology Readings</span>
                   </div>
                 </a>
               </li>
               <li className="navigation-item">
-                <a href="#community">
+                <a href="https://www.skool.com/soma-in-the-stars-7574/about" target="_blank" rel="noopener noreferrer">
                   <div className="navigation-link">
                     <span>Community</span>
                   </div>
                 </a>
               </li>
               <li className="navigation-item navigation-item-cta">
-                <a href="#join-skool">
+                <a href="https://www.skool.com/soma-in-the-stars-7574/about" target="_blank" rel="noopener noreferrer">
                   <div className="btn-outline btn navigation-cta-btn">
                     <span>
                       {' '}
@@ -146,7 +139,7 @@ const Navigation = (props) => {
                 </a>
               </li>
               <li className="navigation-item navigation-item-cta">
-                <a href="#book-reading">
+                <a href="/consultations">
                   <div className="btn-primary btn navigation-cta-btn">
                     <span>
                       {' '}

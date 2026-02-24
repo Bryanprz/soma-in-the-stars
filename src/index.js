@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 
 import './style.css'
 import Home from './views/home'
+import Consultations from './views/consultations'
 import NotFound from './views/not-found'
 
 const getBasename = () => {
@@ -23,6 +24,7 @@ const App = () => {
     <Router basename={getBasename()}>
       <Switch>
         <Route component={Home} exact path="/" />
+        <Route component={Consultations} exact path="/consultations" />
         <Route component={NotFound} />
       </Switch>
     </Router>

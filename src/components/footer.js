@@ -184,7 +184,7 @@ const Footer = (props) => {
                 <h3 className="footer-column-title">Join Us</h3>
                 <ul className="footer-links-list">
                   <li>
-                    <a href="#">
+                    <a href="https://www.skool.com/soma-in-the-stars-7574/about" target="_blank" rel="noopener noreferrer">
                       <div className="footer-link footer-link-with-icon">
                         <svg
                           width="18"
@@ -208,7 +208,7 @@ const Footer = (props) => {
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a href="/consultations">
                       <div className="footer-link footer-link-with-icon">
                         <svg
                           width="18"
@@ -341,12 +341,12 @@ const Footer = (props) => {
                   />
                 </p>
                 <div className="footer-cta-buttons">
-                  <a href="#">
+                  <a href="https://www.skool.com/soma-in-the-stars-7574/about" target="_blank" rel="noopener noreferrer">
                     <div className="btn-primary btn-lg btn">
                       <span>Join Free Community</span>
                     </div>
                   </a>
-                  <a href="#">
+                  <a href="/consultations">
                     <div className="btn-accent btn-lg btn">
                       <span>Book Your Reading</span>
                     </div>

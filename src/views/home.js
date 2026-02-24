@@ -53,7 +53,7 @@ a:focus-visible, button:focus-visible {
           <div className="hero-content">
             <h1 className="headline">
               {' '}
-              Soma in the Stars — Learn Vedic Astrology to Navigate Life with
+              Learn Vedic Astrology to Navigate Life with
               Clarity
               <span
                 dangerouslySetInnerHTML={{
@@ -76,7 +76,7 @@ a:focus-visible, button:focus-visible {
               />
             </p>
             <div className="cta-group">
-              <a href="#skool">
+              <a href="https://www.skool.com/soma-in-the-stars-7574/about" target="_blank" rel="noopener noreferrer">
                 <div
                   role="button"
                   aria-label="Join Skool — free"
@@ -93,7 +93,7 @@ a:focus-visible, button:focus-visible {
                   </span>
                 </div>
               </a>
-              <a href="#reading">
+              <a href="/consultations">
                 <div
                   role="button"
                   aria-label="Book private reading with Jyotishi Carolina Ortiz"
@@ -170,7 +170,7 @@ a:focus-visible, button:focus-visible {
               <span className="tag">Expert Guidance</span>
             </div>
             <div className="cta-buttons">
-              <a href="#join">
+              <a href="https://www.skool.com/soma-in-the-stars-7574/about" target="_blank" rel="noopener noreferrer">
                 <div
                   role="button"
                   aria-label="Join Skool community now"
@@ -269,7 +269,7 @@ a:focus-visible, button:focus-visible {
               <span className="credential-badge">Creative Focus</span>
             </div>
             <div className="cta-stack">
-              <a href="#book-now">
+              <a href="/consultations">
                 <div
                   role="button"
                   aria-label="Book a private Jyotish reading"
@@ -278,23 +278,6 @@ a:focus-visible, button:focus-visible {
                   <span>
                     {' '}
                     Book a Private Reading
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
-                  </span>
-                </div>
-              </a>
-              <a href="#custom-plan">
-                <div
-                  role="button"
-                  aria-label="Request personalized plan"
-                  className="btn btn-secondary"
-                >
-                  <span>
-                    {' '}
-                    Request Creative-Astrology Plan
                     <span
                       dangerouslySetInnerHTML={{
                         __html: ' ',
@@ -336,29 +319,6 @@ a:focus-visible, button:focus-visible {
                   }}
                 />
               </p>
-            </div>
-            <div className="booking-teaser">
-              <div className="teaser-badge">
-                <svg
-                  width="20"
-                  xmlns="http://www.w3.org/2000/svg"
-                  height="20"
-                  viewBox="0 0 24 24"
-                >
-                  <g
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  >
-                    <path d="M8 2v4m8-4v4"></path>
-                    <rect x="3" y="4" rx="2" width="18" height="18"></rect>
-                    <path d="M3 10h18"></path>
-                  </g>
-                </svg>
-                <span>Book Your Session Today</span>
-              </div>
             </div>
           </div>
         </div>
@@ -569,27 +529,21 @@ a:focus-visible, button:focus-visible {
               aria-labelledby="service-1"
               className="service-card flagship"
             >
-              <div className="home-card-image1 card-image"></div>
+              <div className="home-card-image2 card-image"></div>
               <div className="card-content">
-                <h3 id="service-1">Private Jyotish Consultations</h3>
+                <h3 id="service-1">Free Vedic Astrology Community</h3>
                 <p>
-                  {' '}
-                  75–90 minutes, bespoke interpretation and action plan. Deep
-                  chart synthesis, career-creative cycle mapping, timing for
-                  launches, collaborations, and signature works.
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
+                  Join our online Skool community for free courses, live
+                  workshops, peer-led study sessions, and ongoing access to
+                  Vedic astrology teachings curated by Jyotishi Carolina Ortiz.
                 </p>
                 <div className="service-meta">
-                  <span className="duration">90 min</span>
-                  <span className="deliverable">Annotated Chart PDF</span>
+                  <span className="duration">Free</span>
+                  <span className="deliverable">Immediate Access</span>
                 </div>
-                <a href="#book-private">
-                  <div className="btn-primary btn">
-                    <span>Book Session</span>
+                <a href="https://www.skool.com/soma-in-the-stars-7574/about" target="_blank" rel="noopener noreferrer">
+                  <div className="btn-accent btn">
+                    <span>Join Community</span>
                   </div>
                 </a>
               </div>
@@ -599,151 +553,24 @@ a:focus-visible, button:focus-visible {
               aria-labelledby="service-2"
               className="service-card flagship"
             >
-              <div className="home-card-image2 card-image"></div>
+              <div className="home-card-image1 card-image"></div>
               <div className="card-content">
-                <h3 id="service-2">Project &amp; Launch Readings</h3>
+                <h3 id="service-2">Private Jyotish Consultations</h3>
                 <p>
-                  {' '}
-                  Focused 45-minute sessions tailored to a single creative
-                  endeavor: book launches, exhibitions, product drops, or season
-                  releases.
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
+                  75-90 minutes, bespoke interpretation and action plan. Deep
+                  chart synthesis, career-creative cycle mapping, timing for
+                  launches, collaborations, and signature works.
                 </p>
                 <div className="service-meta">
-                  <span className="duration">45 min</span>
-                  <span className="deliverable">Timing Guide</span>
+                  <span className="duration">90 min</span>
+                  <span className="deliverable">Annotated Chart PDF</span>
                 </div>
-                <a href="#book-project">
+                <a href="/consultations">
                   <div className="btn-primary btn">
-                    <span>Schedule Now</span>
+                    <span>Book Session</span>
                   </div>
                 </a>
               </div>
-            </article>
-            <article
-              role="group"
-              aria-labelledby="service-3"
-              className="service-card flagship"
-            >
-              <div className="home-card-image3 card-image"></div>
-              <div className="card-content">
-                <h3 id="service-3">Creative Mentorship Series</h3>
-                <p>
-                  {' '}
-                  Multi-session pathway (3 or 6 sessions) integrating Jyotish
-                  with creative practice: seasonal planning, concept incubation,
-                  and sustainable workflow.
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </p>
-                <div className="service-meta">
-                  <span className="duration">3–6 sessions</span>
-                  <span className="deliverable">Resource Packets</span>
-                </div>
-                <a href="#mentorship">
-                  <div className="btn-primary btn">
-                    <span>Enroll</span>
-                  </div>
-                </a>
-              </div>
-            </article>
-            <article
-              role="group"
-              aria-labelledby="service-4"
-              className="service-card"
-            >
-              <h3 id="service-4">Astrology for Teams</h3>
-              <p>
-                {' '}
-                Group workshops and chart-led strategy sessions for studios,
-                collectives, and cultural organizations.
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
-              </p>
-              <a href="#teams">
-                <div className="btn btn-secondary">
-                  <span>Learn More</span>
-                </div>
-              </a>
-            </article>
-            <article
-              role="group"
-              aria-labelledby="service-5"
-              className="service-card"
-            >
-              <h3 id="service-5">Artistic Chart Readings</h3>
-              <p>
-                {' '}
-                Aesthetic-forward interpretations that translate planetary
-                symbolism into visual and narrative prompts for artists.
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
-              </p>
-              <a href="#artistic">
-                <div className="btn btn-secondary">
-                  <span>Explore</span>
-                </div>
-              </a>
-            </article>
-            <article
-              role="group"
-              aria-labelledby="service-6"
-              className="service-card"
-            >
-              <h3 id="service-6">Formats &amp; Access</h3>
-              <p>
-                {' '}
-                In-person (select residencies), video consultations, and
-                recorded sessions with time-stamped summaries.
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
-              </p>
-              <a href="#formats">
-                <div className="btn btn-secondary">
-                  <span>View Options</span>
-                </div>
-              </a>
-            </article>
-            <article
-              role="group"
-              aria-labelledby="guidance"
-              className="service-card guidance-card"
-            >
-              <h3 id="guidance">How to Choose Your Path</h3>
-              <p>
-                {' '}
-                Pick Private Jyotish for life-defining clarity; Project Reading
-                for focused launches; Mentorship Series for sustained growth;
-                Team Workshops for organizational alignment. Still unsure? Join
-                the free Skool community to sample teachings and ask for a
-                personalized recommendation.
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
-              </p>
-              <a href="#skool-join">
-                <div className="btn-accent btn">
-                  <span>Join Skool Community</span>
-                </div>
-              </a>
             </article>
           </div>
         </div>
@@ -941,186 +768,6 @@ a:focus-visible, button:focus-visible {
               ></path>
             </svg>
           </button>
-        </div>
-      </section>
-      <section
-        role="region"
-        aria-labelledby="insights-title"
-        className="insights"
-      >
-        <div className="insights-container">
-          <h2 id="insights-title" className="section-title">
-            Insights &amp; Practice
-          </h2>
-          <p className="section-subtitle">
-            {' '}
-            A curated digest for creative minds — deep, lyrical essays and
-            practical lessons that translate Jyotish into studio practice,
-            project planning, and creative cycles.
-            <span
-              dangerouslySetInnerHTML={{
-                __html: ' ',
-              }}
-            />
-          </p>
-          <div
-            role="region"
-            aria-label="Recent essays"
-            aria-roledescription="carousel"
-            className="carousel"
-          >
-            <article className="insight-card card">
-              <div className="home-card-image-slot1 card-image-slot"></div>
-              <div className="card-text">
-                <h3>Planetary Prompts</h3>
-                <p>
-                  {' '}
-                  Monthly short reads that map upcoming transits to artistic
-                  opportunity. Clear learning outcomes and suggested prompts.
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </p>
-                <div className="card-meta">
-                  <span className="duration">5 min read</span>
-                  <span className="level">All Levels</span>
-                </div>
-              </div>
-            </article>
-            <article className="insight-card card">
-              <div className="home-card-image-slot2 card-image-slot"></div>
-              <div className="card-text">
-                <h3>Timing Your Launch</h3>
-                <p>
-                  {' '}
-                  A condensed lesson on electional timing for creative projects:
-                  theory, case study, and a reproducible checklist.
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </p>
-                <div className="card-meta">
-                  <span className="duration">12 min read</span>
-                  <span className="level">Studio Level</span>
-                </div>
-              </div>
-            </article>
-            <article className="insight-card card">
-              <div className="home-card-image-slot3 card-image-slot"></div>
-              <div className="card-text">
-                <h3>Student Spotlight</h3>
-                <p>
-                  {' '}
-                  Case-study profiles showing how Skool members used
-                  astrological timing to finish exhibitions and commissions.
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </p>
-                <div className="card-meta">
-                  <span className="duration">8 min read</span>
-                  <span className="level">Case Study</span>
-                </div>
-              </div>
-            </article>
-            <article className="insight-card card">
-              <div className="home-card-image-slot4 card-image-slot"></div>
-              <div className="card-text">
-                <h3>Chart Reading Basics</h3>
-                <p>
-                  {' '}
-                  Compact visual guides on chart reading fundamentals tailored
-                  for designers, performers, and makers.
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </p>
-                <div className="card-meta">
-                  <span className="duration">6 min read</span>
-                  <span className="level">Foundational</span>
-                </div>
-              </div>
-            </article>
-          </div>
-          <div className="matrix">
-            <article className="card feature">
-              <div className="accent-bar"></div>
-              <h3>Masterclass Excerpt</h3>
-              <p>
-                {' '}
-                Deep dive into electional astrology with Carolina&apos;s
-                signature teaching methodology.
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
-              </p>
-              <a href="#masterclass">
-                <div className="btn-primary btn">
-                  <span>View Lesson</span>
-                </div>
-              </a>
-            </article>
-            <article className="masterclass card">
-              <div className="accent-bar"></div>
-              <h3>Process &amp; Outcome</h3>
-              <p>
-                {' '}
-                Real stories from artists who used astrology to complete major
-                projects.
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
-              </p>
-              <a href="#outcomes">
-                <div className="btn-primary btn">
-                  <span>Read Stories</span>
-                </div>
-              </a>
-            </article>
-            <article className="howto card">
-              <div className="accent-bar"></div>
-              <h3>Archive &amp; Search</h3>
-              <p>
-                Discover content by skill level, format, and creative
-                discipline.
-              </p>
-              <a href="#archive">
-                <div className="btn-primary btn">
-                  <span>Browse Library</span>
-                </div>
-              </a>
-            </article>
-          </div>
-          <div className="insights-cta">
-            <p>
-              {' '}
-              Dive into the full Insights library inside our free Skool
-              community for ongoing lessons, live study sessions, and peer
-              feedback.
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: ' ',
-                }}
-              />
-            </p>
-            <a href="#skool-insights">
-              <div className="btn-accent btn">
-                <span>Explore All Insights</span>
-              </div>
-            </a>
-          </div>
         </div>
       </section>
       <div className="home-container4">
