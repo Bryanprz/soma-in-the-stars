@@ -1891,10 +1891,9 @@
   gap: var(--section-gap);
   display: grid;
   grid-auto-rows: minmax(12rem, auto);
-  grid-template-areas: "flag1 flag2 flag3"
-      "supp1 supp2 supp3"
-      "guidance guidance guidance";
-  grid-template-columns: 1.4fr 1fr 1fr;
+  grid-template-areas: "flag1 flag2";
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
 }
  
 .service-card {
@@ -2894,11 +2893,7 @@
     grid-template-columns: 1fr;
   }
   .services-grid {
-    grid-template-areas: "flag1 flag2"
-        "flag3 flag3"
-        "supp1 supp2"
-        "supp3 supp3"
-        "guidance guidance";
+    grid-template-areas: "flag1 flag2";
     grid-template-columns: 1fr 1fr;
   }
   .matrix {
@@ -3019,13 +3014,7 @@
     padding: var(--spacing-xl);
   }
   .services-grid {
-    grid-template-areas: "flag1"
-        "flag2"
-        "flag3"
-        "supp1"
-        "supp2"
-        "supp3"
-        "guidance";
+    grid-template-areas: "flag1" "flag2";
     grid-template-columns: 1fr;
   }
   .carousel {
