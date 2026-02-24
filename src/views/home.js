@@ -12,7 +12,7 @@ const Home = (props) => {
     <div className="home-container1">
       <Helmet>
         <title>Soma in the Stars | Vedic Jyotish Astrology</title>
-        <meta property="og:title" content="Gummy Immediate Antelope" />
+        <meta property="og:title" content="Soma in the Stars | Vedic Jyotish Astrology" />
         <link
           rel="icon"
           href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='0.9em' font-size='90'%3E%F0%9F%8C%99%3C/text%3E%3C/svg%3E"
@@ -44,6 +44,8 @@ a:focus-visible, button:focus-visible {
           ></Script>
         </div>
       </div>
+
+      {/* ── 1. HERO ── */}
       <section
         role="region"
         aria-label="Soma in the Stars hero"
@@ -52,62 +54,32 @@ a:focus-visible, button:focus-visible {
         <div className="home-hero-inner hero-inner">
           <div className="hero-content">
             <h1 className="headline">
-              {' '}
-              Learn Vedic Astrology to Navigate Life with
-              Clarity
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: ' ',
-                }}
-              />
+              Get Clarity on Your Career, Relationships, and Life Decisions
             </h1>
             <p className="lead">
-              {' '}
-              Unlock your soul’s path through Jyotish — explore your karma,
-              receive intuitive insight, and connect with a soulful community
-              for curious minds and modern seekers. <strong>Join our free Skool</strong> for
-              courses, live workshops, and peer-led study, or <strong>book a private
-              reading</strong> with Jyotishi Carolina Ortiz for a personalized
-              consultation.
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: ' ',
-                }}
-              />
+              Use the world's oldest astrological system to stop
+              guessing and start making confident moves. Join a free
+              community of seekers learning Vedic astrology — or book a
+              private 90-minute reading with Jyotishi Carolina Ortiz and
+              walk away with a personalized action plan.
             </p>
             <div className="cta-group">
               <a href="https://www.skool.com/soma-in-the-stars-7574/about" target="_blank" rel="noopener noreferrer">
                 <div
                   role="button"
-                  aria-label="Join Skool — free"
-                  className="btn-primary btn"
+                  aria-label="Join free Skool community"
+                  className="btn-accent btn"
                 >
-                  <span>
-                    {' '}
-                    Join the Skool (Free)
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
-                  </span>
+                  <span>Join Free Community</span>
                 </div>
               </a>
               <a href="/consultations">
                 <div
                   role="button"
                   aria-label="Book private reading with Jyotishi Carolina Ortiz"
-                  className="btn btn-secondary"
+                  className="btn-primary btn"
                 >
-                  <span>
-                    {' '}
-                    Book a Private Reading
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
-                  </span>
+                  <span>Book a Private Reading</span>
                 </div>
               </a>
             </div>
@@ -126,448 +98,94 @@ a:focus-visible, button:focus-visible {
           </div>
         </div>
       </section>
-      <section
-        id="skool"
-        role="region"
-        aria-labelledby="skool-heading"
-        className="skool-section"
-      >
-        <div className="skool-cta">
-          <div className="cta-content">
-            <h2 id="skool-heading">
-              Join the Free astrology community on Skool
-            </h2>
-            <p>
-              {' '}
-              Connect with artists, designers, and creative professionals
-              exploring Vedic astrology as a generative tool for process,
-              portfolio and purpose.
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: ' ',
-                }}
-              />
-            </p>
-            <ul className="benefits-list">
-              <li>
-                <span>
-                  Curated mini-courses &amp; live studio-style workshops
-                </span>
-              </li>
-              <li>
-                <span>Collaborative projects &amp; resource libraries</span>
-              </li>
-              <li>
-                <span>Peer feedback &amp; supportive creative cohort</span>
-              </li>
-              <li>
-                <span>Practical, evidence-rooted teachings</span>
-              </li>
-            </ul>
-            <div className="credential-tags">
-              <span className="tag">Free Membership</span>
-              <span className="tag">Immediate Access</span>
-              <span className="tag">Expert Guidance</span>
-            </div>
-            <div className="cta-buttons">
-              <a href="https://www.skool.com/soma-in-the-stars-7574/about" target="_blank" rel="noopener noreferrer">
-                <div
-                  role="button"
-                  aria-label="Join Skool community now"
-                  className="btn-primary btn"
-                >
-                  <span>
-                    {' '}
-                    Join the Community Now
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
-                  </span>
-                </div>
-              </a>
-              <a href="#learn">
-                <div
-                  role="button"
-                  aria-label="Learn more about Skool"
-                  className="btn btn-secondary"
-                >
-                  <span>
-                    {' '}
-                    Explore Free Resources
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
-                  </span>
-                </div>
-              </a>
-            </div>
+
+      {/* ── 2. SOCIAL PROOF BAR ── */}
+      <section className="proof-bar" aria-label="Trust indicators">
+        <div className="proof-bar-inner">
+          <div className="proof-item">
+            <span className="proof-number">500+</span>
+            <span className="proof-label">Community Members</span>
           </div>
-          <div className="visual-card">
-            <img
-              alt="Astrology study and tarot reading session"
-              src="https://images.pexels.com/photos/6931775/pexels-photo-6931775.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
-            />
-            <div className="card-overlay">
-              <div className="overlay-badge">
-                <svg
-                  width="20"
-                  xmlns="http://www.w3.org/2000/svg"
-                  height="20"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    d="m8 9l5 5v7H8v-4m0 4H3v-7l5-5m1 1V4a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v17h-8m0-14v.01M17 7v.01M17 11v.01M17 15v.01"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  ></path>
-                </svg>
-                <span>Active Community</span>
-              </div>
-            </div>
+          <div className="proof-item">
+            <span className="proof-number">20+</span>
+            <span className="proof-label">Years of Practice</span>
+          </div>
+          <div className="proof-item">
+            <span className="proof-number">Certified</span>
+            <span className="proof-label">Classical Jyotishi</span>
+          </div>
+          <div className="proof-item">
+            <span className="proof-number">90 min</span>
+            <span className="proof-label">Deep-Dive Sessions</span>
           </div>
         </div>
       </section>
-      <section
-        id="reading"
-        role="region"
-        aria-labelledby="reading-heading"
-        className="reading-section"
-      >
-        <div className="reading-panel">
-          <div className="left-column">
-            <h2 id="reading-heading">Book a Private Jyotish Reading</h2>
-            <p className="synopsis">
-              {' '}
-              Step into a luminous, one-on-one session with Jyotishi Carolina
-              Ortiz — an embodied Vedic guide for creative minds. These private
-              readings blend rigorous Jyotish technique with an artist&apos;s
-              sensibility to illuminate your creative cycles, career timing,
-              collaborative potential, and soulful projects.
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: ' ',
-                }}
-              />
-            </p>
-            <figure className="portrait-card">
-              <img
-                alt="Private astrology chart reading session"
-                src="https://images.pexels.com/photos/6932077/pexels-photo-6932077.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
-              />
-              <figcaption>Bespoke Chart Analysis</figcaption>
-            </figure>
-            <div className="credential-strip">
-              <span className="credential-badge">Certified Jyotishi</span>
-              <span className="credential-badge">20+ Years Practice</span>
-              <span className="credential-badge">Creative Focus</span>
-            </div>
-            <div className="cta-stack">
-              <a href="/consultations">
-                <div
-                  role="button"
-                  aria-label="Book a private Jyotish reading"
-                  className="btn-primary btn"
-                >
-                  <span>
-                    {' '}
-                    Book a Private Reading
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
-                  </span>
-                </div>
-              </a>
-            </div>
-          </div>
-          <div className="right-column">
-            <h3>What to Expect</h3>
-            <ul className="outcomes-list">
-              <li>
-                <span>
-                  Focused chart analysis tailored to your creative practice
-                </span>
-              </li>
-              <li>
-                <span>Actionable timing for launches and collaborations</span>
-              </li>
-              <li>
-                <span>Ritualized remedies you can actually use</span>
-              </li>
-              <li>
-                <span>Clear learning path to understand your chart</span>
-              </li>
-            </ul>
-            <div className="who-for">
-              <h4>Who This Is For</h4>
-              <p>
-                {' '}
-                Artists, designers, makers, cultural leaders and creative
-                professionals seeking both precise astrological guidance and
-                practical, career-forward strategies.
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
+
+      {/* ── 3. TWO OFFER CARDS ── */}
       <section
         role="region"
-        aria-labelledby="about-heading"
-        className="about-section"
-      >
-        <div className="about-container">
-          <div className="video-column">
-            <div className="video-container">
-              <video
-                src="https://videos.pexels.com/video-files/6943710/6943710-hd_1080_1920_24fps.mp4"
-                poster="https://images.pexels.com/videos/6943710/pictures/preview-0.jpeg"
-                controls="true"
-                aria-label="Video: Carolina Ortiz teaching"
-              >
-                <span>
-                  {' '}
-                  Your browser does not support the video tag.
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-              </video>
-              <div className="video-caption">
-                <h3>Teaching Philosophy</h3>
-                <p>Experience Carolina&apos;s approach to Jyotish</p>
-              </div>
-            </div>
-          </div>
-          <div className="bio-card">
-            <h2 id="about-heading">Jyotishi Carolina Ortiz</h2>
-            <p className="subtitle">Vedic Guide &amp; Creative Astrologer</p>
-            <p>
-              {' '}
-              Jyotishi Carolina blends rigorous Jyotish scholarship with an
-              artist&apos;s sensibility. Trained in classical Vedic astrology,
-              she reads charts as living compositions: planetary rhythms as
-              color, dashas as narrative beats, and transits as shifts in
-              texture.
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: ' ',
-                }}
-              />
-            </p>
-            <p>
-              {' '}
-              Her work translates technical mastery into actionable insights for
-              artists, designers, and cultural leaders seeking direction, deeper
-              craft, and the courage to create.
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: ' ',
-                }}
-              />
-            </p>
-            <div className="bio-highlights">
-              <div className="highlight-item">
-                <svg
-                  width="24"
-                  xmlns="http://www.w3.org/2000/svg"
-                  height="24"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.12 2.12 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.12 2.12 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.12 2.12 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.12 2.12 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.12 2.12 0 0 0 1.597-1.16z"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  ></path>
-                </svg>
-                <span>Decades of Classical Study</span>
-              </div>
-              <div className="highlight-item">
-                <svg
-                  width="24"
-                  xmlns="http://www.w3.org/2000/svg"
-                  height="24"
-                  viewBox="0 0 24 24"
-                >
-                  <g
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  >
-                    <circle r="10" cx="12" cy="12"></circle>
-                    <path d="M12 2a14.5 14.5 0 0 0 0 20a14.5 14.5 0 0 0 0-20M2 12h20"></path>
-                  </g>
-                </svg>
-                <span>International Clients</span>
-              </div>
-              <div className="highlight-item">
-                <svg
-                  width="24"
-                  xmlns="http://www.w3.org/2000/svg"
-                  height="24"
-                  viewBox="0 0 24 24"
-                >
-                  <g
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  >
-                    <path d="M12 22a1 1 0 0 1 0-20a10 9 0 0 1 10 9a5 5 0 0 1-5 5h-2.25a1.75 1.75 0 0 0-1.4 2.8l.3.4a1.75 1.75 0 0 1-1.4 2.8z"></path>
-                    <circle
-                      r=".5"
-                      cx="13.5"
-                      cy="6.5"
-                      fill="currentColor"
-                    ></circle>
-                    <circle
-                      r=".5"
-                      cx="17.5"
-                      cy="10.5"
-                      fill="currentColor"
-                    ></circle>
-                    <circle
-                      r=".5"
-                      cx="6.5"
-                      cy="12.5"
-                      fill="currentColor"
-                    ></circle>
-                    <circle
-                      r=".5"
-                      cx="8.5"
-                      cy="7.5"
-                      fill="currentColor"
-                    ></circle>
-                  </g>
-                </svg>
-                <span>Creative Practice Focus</span>
-              </div>
-            </div>
-            <a href="#about-full">
-              <div
-                role="button"
-                aria-label="Learn more about Carolina"
-                className="btn-primary btn"
-              >
-                <span>
-                  {' '}
-                  Discover Carolina&apos;s Journey
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div className="credential-strip-bottom">
-          <div className="credential-chip">
-            <span>Certified in Classical Jyotish</span>
-          </div>
-          <div className="credential-chip">
-            <span>Practical Mentoring</span>
-          </div>
-          <div className="credential-chip">
-            <span>Creative Breakthrough Guide</span>
-          </div>
-          <div className="credential-chip">
-            <span>Warm &amp; Precise Sessions</span>
-          </div>
-        </div>
-      </section>
-      <section
-        role="region"
-        aria-labelledby="services-heading"
+        aria-labelledby="offers-heading"
         className="services-section"
       >
         <div className="services-container">
-          <h2 id="services-heading" className="section-title">
-            {' '}
-            Offerings — Guided, Creative, Transformative
-            <span
-              dangerouslySetInnerHTML={{
-                __html: ' ',
-              }}
-            />
+          <h2 id="offers-heading" className="section-title">
+            Two Ways to Start
           </h2>
-          <p className="section-subtitle">
-            {' '}
-            A concise suite of Vedic astrology experiences crafted for makers,
-            directors, and creative leaders who want celestial clarity to shape
-            their practice and projects.
-            <span
-              dangerouslySetInnerHTML={{
-                __html: ' ',
-              }}
-            />
-          </p>
           <div className="services-grid">
             <article
               role="group"
-              aria-labelledby="service-1"
+              aria-labelledby="offer-free"
               className="service-card flagship"
             >
               <div className="home-card-image2 card-image"></div>
               <div className="card-content">
-                <h3 id="service-1">Free Vedic Astrology Community</h3>
-                <p>
-                  Join our online Skool community for free courses, live
-                  workshops, peer-led study sessions, and ongoing access to
-                  Vedic astrology teachings curated by Jyotishi Carolina Ortiz.
-                </p>
                 <div className="service-meta">
                   <span className="duration">Free</span>
                   <span className="deliverable">Immediate Access</span>
                 </div>
+                <h3 id="offer-free">Free Vedic Astrology Community</h3>
+                <p>
+                  Courses, live workshops, peer-led study sessions, and
+                  ongoing teachings curated by Jyotishi Carolina Ortiz.
+                  No credit card required.
+                </p>
+                <ul className="offer-includes">
+                  <li>Mini-courses and live workshops</li>
+                  <li>Peer feedback and study groups</li>
+                  <li>Resource library access</li>
+                </ul>
                 <a href="https://www.skool.com/soma-in-the-stars-7574/about" target="_blank" rel="noopener noreferrer">
-                  <div className="btn-accent btn">
-                    <span>Join Community</span>
+                  <div className="btn-accent btn-lg btn">
+                    <span>Join Free Community</span>
                   </div>
                 </a>
               </div>
             </article>
             <article
               role="group"
-              aria-labelledby="service-2"
+              aria-labelledby="offer-private"
               className="service-card flagship"
             >
               <div className="home-card-image1 card-image"></div>
               <div className="card-content">
-                <h3 id="service-2">Private Jyotish Consultations</h3>
-                <p>
-                  75-90 minutes, bespoke interpretation and action plan. Deep
-                  chart synthesis, career-creative cycle mapping, timing for
-                  launches, collaborations, and signature works.
-                </p>
                 <div className="service-meta">
                   <span className="duration">90 min</span>
                   <span className="deliverable">Annotated Chart PDF</span>
                 </div>
+                <h3 id="offer-private">Private Jyotish Consultation</h3>
+                <p>
+                  A one-on-one deep dive into your Vedic birth chart.
+                  Walk away with a bespoke action plan for your career,
+                  relationships, and life decisions.
+                </p>
+                <ul className="offer-includes">
+                  <li>Full birth chart analysis</li>
+                  <li>Career and timing recommendations</li>
+                  <li>Annotated PDF and session recording</li>
+                </ul>
                 <a href="/consultations">
-                  <div className="btn-primary btn">
-                    <span>Book Session</span>
+                  <div className="btn-primary btn-lg btn">
+                    <span>Book Your Reading</span>
                   </div>
                 </a>
               </div>
@@ -575,35 +193,24 @@ a:focus-visible, button:focus-visible {
           </div>
         </div>
       </section>
+
+      {/* ── 4. TESTIMONIALS ── */}
       <section
         role="region"
         aria-labelledby="testimonials-heading"
         className="testimonials-section"
       >
         <h2 id="testimonials-heading" className="visually-hidden">
-          {' '}
-          Student Testimonials
-          <span
-            dangerouslySetInnerHTML={{
-              __html: ' ',
-            }}
-          />
+          What Others Are Saying
         </h2>
         <div className="carousel-viewport">
           <div className="carousel-track">
             <article role="listitem" className="card">
               <blockquote className="quote">
                 <span>
-                  {' '}
-                  &quot;A luminous guide for my creative path—Carolina&apos;s
-                  reading translated planetary patterns into practical next
-                  steps for my gallery launch. Revenue and confidence
-                  followed.&quot;
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
+                  &quot;Carolina&apos;s reading translated planetary patterns
+                  into practical next steps for my gallery launch. Revenue and
+                  confidence followed.&quot;
                 </span>
               </blockquote>
               <div className="credential">
@@ -617,16 +224,10 @@ a:focus-visible, button:focus-visible {
             <article role="listitem" className="card">
               <blockquote className="quote">
                 <span>
-                  {' '}
-                  &quot;The Skool community feels like a living syllabus:
-                  workshops, peer critiques, and Carolina&apos;s insights
-                  sharpened my craft and my schedule. I landed two commissions
-                  within months.&quot;
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
+                  &quot;The Skool community feels like a living syllabus.
+                  Workshops, peer critiques, and Carolina&apos;s insights
+                  sharpened my craft. I landed two commissions within
+                  months.&quot;
                 </span>
               </blockquote>
               <div className="credential">
@@ -640,15 +241,9 @@ a:focus-visible, button:focus-visible {
             <article role="listitem" className="card">
               <blockquote className="quote">
                 <span>
-                  {' '}
                   &quot;I expected poetic language; I received rigorous,
                   teachable frameworks. Her Vedic charts clarified timing for
-                  residencies and contracts—game changer for my practice.&quot;
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
+                  residencies and contracts — game changer.&quot;
                 </span>
               </blockquote>
               <div className="credential">
@@ -662,15 +257,9 @@ a:focus-visible, button:focus-visible {
             <article role="listitem" className="card">
               <blockquote className="quote">
                 <span>
-                  {' '}
                   &quot;After a private session I restructured my studio
                   calendar according to planetary seasons. My productivity
                   doubled and my best work came through.&quot;
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
                 </span>
               </blockquote>
               <div className="credential">
@@ -684,15 +273,9 @@ a:focus-visible, button:focus-visible {
             <article role="listitem" className="card">
               <blockquote className="quote">
                 <span>
-                  {' '}
-                  &quot;Soma in the Stars marries intuition with method. The
-                  free Skool space introduced me to tools and mentors; the
-                  one-on-one reading made those tools actionable.&quot;
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
+                  &quot;The free Skool space introduced me to tools and mentors;
+                  the one-on-one reading made those tools actionable. Intuition
+                  meets method.&quot;
                 </span>
               </blockquote>
               <div className="credential">
@@ -706,16 +289,10 @@ a:focus-visible, button:focus-visible {
             <article role="listitem" className="card">
               <blockquote className="quote">
                 <span>
-                  {' '}
                   &quot;Professional, poetic, and precise. Carolina&apos;s
                   readings have become part of our creative team&apos;s
-                  planning—she translates cosmic cycles into deadlines and
+                  planning — she translates cosmic cycles into deadlines and
                   breakthroughs.&quot;
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
                 </span>
               </blockquote>
               <div className="credential">
@@ -770,6 +347,74 @@ a:focus-visible, button:focus-visible {
           </button>
         </div>
       </section>
+
+      {/* ── 5. ABOUT CAROLINA (compact) ── */}
+      <section
+        role="region"
+        aria-labelledby="about-heading"
+        className="about-section"
+      >
+        <div className="about-container">
+          <div className="video-column">
+            <div className="video-container">
+              <video
+                src="https://videos.pexels.com/video-files/6943710/6943710-hd_1080_1920_24fps.mp4"
+                poster="https://images.pexels.com/videos/6943710/pictures/preview-0.jpeg"
+                controls="true"
+                aria-label="Video: Carolina Ortiz teaching"
+              >
+                Your browser does not support the video tag.
+              </video>
+            </div>
+          </div>
+          <div className="bio-card">
+            <h2 id="about-heading">Jyotishi Carolina Ortiz</h2>
+            <p className="subtitle">Vedic Guide &amp; Creative Astrologer</p>
+            <p>
+              Classically trained Jyotishi with 20+ years of practice.
+              Carolina translates rigorous Vedic technique into actionable
+              guidance for artists, designers, and creative leaders seeking
+              clarity, timing, and the courage to create.
+            </p>
+            <div className="credential-strip-bottom">
+              <div className="credential-chip">
+                <span>Certified Jyotishi</span>
+              </div>
+              <div className="credential-chip">
+                <span>International Clients</span>
+              </div>
+              <div className="credential-chip">
+                <span>Creative Focus</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ── 6. FINAL CTA ── */}
+      <section className="final-cta-section" aria-label="Get started">
+        <div className="final-cta-inner">
+          <h2 className="section-title">Ready to Begin?</h2>
+          <p className="section-subtitle">
+            Whether you want to learn at your own pace or get a personalized
+            reading, there is a path for you.
+          </p>
+          <div className="final-cta-buttons">
+            <a href="https://www.skool.com/soma-in-the-stars-7574/about" target="_blank" rel="noopener noreferrer">
+              <div className="btn-accent btn-lg btn">
+                <span>Join Free Community</span>
+              </div>
+            </a>
+            <a href="/consultations">
+              <div className="btn-primary btn-lg btn">
+                <span>Book Your Reading</span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      {/* ── SCRIPTS ── */}
       <div className="home-container4">
         <div className="home-container5">
           <Script
